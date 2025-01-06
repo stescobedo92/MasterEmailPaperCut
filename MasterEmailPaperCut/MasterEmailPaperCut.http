@@ -1,0 +1,6 @@
+@MasterEmailPaperCut_HostAddress = http://localhost:5072
+
+GET {{MasterEmailPaperCut_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
