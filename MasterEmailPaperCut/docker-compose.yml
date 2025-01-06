@@ -1,7 +1,9 @@
+version: '3.8'
+
 services:
-  stescobedo.papercut:
-    image: changemakerstudiosus/papercut-smtp:latest
-    container_name: stescobedo.papercut
+  stescobedo-papercut-smtp:
+    image: jijiechen/papercut:latest
+    container_name: stescobedo-papercut-smtp
     ports:
-      - "8080:8080"
-      - "25:25"
+        - "37408:37408"
+        - "25:25"
