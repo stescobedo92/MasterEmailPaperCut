@@ -1,0 +1,7 @@
+services:
+  stescobedo.papercut:
+    image: changemakerstudiosus/papercut-smtp:latest
+    container_name: stescobedo.papercut
+    ports:
+      - "8080:8080"
+      - "25:25"
